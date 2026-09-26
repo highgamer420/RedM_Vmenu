@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CES Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rye&family=Crimson+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="western">
+    <div id="root" class="align-right">
+        <div id="menu" class="hidden">
+            <header class="banner">
+                <div class="banner-ornament">✦</div>
+                <div id="title">CES Menu</div>
+                <div id="brand">Crazy Eyes Studio</div>
+            </header>
+            <div class="subbar">
+                <span id="crumb"></span>
+                <span id="counter"></span>
+            </div>
+            <div id="search" class="hidden">
+                <span class="search-icon">⌕</span>
+                <input id="searchInput" type="text" placeholder="Type to filter…" autocomplete="off" spellcheck="false">
+            </div>
+            <ul id="items"></ul>
+            <div id="scrollhint" class="hidden">▾</div>
+            <div id="desc" class="hidden"></div>
+            <div id="modebar"></div>
+        </div>
+    </div>
+
+    <div id="toasts"></div>
+    <div id="announce" class="hidden"><div class="announce-from"></div><div class="announce-text"></div></div>
+    <div id="status"></div>
+    <div id="coords" class="hidden"></div>
+
+    <div id="prompt" class="hidden">
+        <div class="prompt-box">
+            <div class="prompt-title"></div>
+            <input id="promptInput" type="text" autocomplete="off" spellcheck="false">
+            <div class="prompt-actions">
+                <button id="promptCancel" class="btn ghost">Cancel <kbd>Esc</kbd></button>
+                <button id="promptOk" class="btn">Confirm <kbd>Enter</kbd></button>
+            </div>
+        </div>
+    </div>
+
+    <textarea id="clipboard" aria-hidden="true"></textarea>
+    <script src="app.js"></script>
+</body>
+</html>

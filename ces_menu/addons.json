@@ -1,0 +1,38 @@
+{
+    "_readme": "CES Menu add-ons (like vMenu's addons.json).Entries can be a plain model-name string or an object with a label/category. Hashes can be hex strings (\"0x8FFCF06B\") or names. After editing, run 'cesmenu_reloadaddons' in the server console - no restart needed. Copy entries from _examples into the real lists; _examples itself is ignored.",
+
+    "peds": [],
+    "horses": [],
+    "wagons": [],
+    "weapons": [],
+    "clothing": [],
+    "horse_tack": [],
+    "weapon_components": [],
+
+    "_examples": {
+        "peds": [
+            "my_addon_ped",
+            { "label": "Sheriff (Addon)", "model": "my_addon_sheriff", "category": "Law" }
+        ],
+        "horses": [
+            { "label": "Painted Mustang", "model": "my_addon_horse" }
+        ],
+        "wagons": [
+            "my_addon_wagon",
+            { "label": "Circus Wagon", "model": "my_circus_wagon" }
+        ],
+        "weapons": [
+            { "label": "Golden Revolver", "hash": "WEAPON_REVOLVER_GOLDEN", "category": "Addon Weapons" }
+        ],
+        "clothing": [
+            { "label": "Gold Hat", "category": "hats", "gender": "male", "hashes": ["0x12345678", "0x23456789"] },
+            { "label": "Long Duster", "category": "coats", "gender": "any", "hashes": ["CLOTHING_ITEM_M_MY_DUSTER_000"] }
+        ],
+        "horse_tack": [
+            { "label": "Parade Saddle", "category": "horse_saddles", "hashes": ["0x12345678"] }
+        ],
+        "weapon_components": [
+            { "weapon": "WEAPON_REVOLVER_CATTLEMAN", "category": "GRIP", "label": "Ivory Grip", "component": "COMPONENT_MY_ADDON_GRIP" }
+        ]
+    }
+}

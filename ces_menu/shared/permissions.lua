@@ -1,0 +1,63 @@
+-- Every permission the menu knows about. The ACE name is "ces_menu.<name>".
+CES_PERMISSIONS = {
+    { name = 'open',                   desc = 'Open the menu (only checked when Config.RequireOpenPermission = true)' },
+
+    { name = 'self.godmode',           desc = 'God mode' },
+    { name = 'self.invisible',         desc = 'Invisibility' },
+    { name = 'self.infinitestamina',   desc = 'Infinite stamina (core + bar)' },
+    { name = 'self.infinitedeadeye',   desc = 'Infinite dead eye core' },
+    { name = 'self.noragdoll',         desc = 'No ragdoll' },
+    { name = 'self.heal',              desc = 'Heal yourself and fill cores' },
+    { name = 'self.revive',            desc = 'Revive yourself' },
+    { name = 'self.clean',             desc = 'Clean dirt, blood and wetness' },
+    { name = 'self.suicide',           desc = 'Kill yourself' },
+    { name = 'noclip',                 desc = 'Noclip' },
+
+    { name = 'teleport.waypoint',      desc = 'Teleport to map waypoint' },
+    { name = 'teleport.locations',     desc = 'Teleport to preset locations' },
+    { name = 'teleport.coords',        desc = 'Teleport to typed coordinates' },
+    { name = 'teleport.saved',         desc = 'Save & use personal teleport locations' },
+
+    { name = 'weapons.spawn',          desc = 'Give yourself weapons' },
+    { name = 'weapons.removeall',      desc = 'Remove all your weapons' },
+    { name = 'weapons.refill',         desc = 'Refill ammo' },
+    { name = 'weapons.infiniteammo',   desc = 'Infinite ammo' },
+    { name = 'weapons.customize',      desc = 'Gunsmith: customize weapon parts, engravings and materials' },
+
+    { name = 'mounts.spawn',           desc = 'Spawn horses (incl. add-on horses)' },
+    { name = 'mounts.customize',       desc = 'Horse customization: saddles, blankets, manes, tails and other tack' },
+    { name = 'mounts.delete',          desc = 'Delete your horse' },
+    { name = 'mounts.godmode',         desc = 'Horse god mode' },
+    { name = 'mounts.care',            desc = 'Heal and clean your horse' },
+    { name = 'vehicles.spawn',         desc = 'Spawn wagons' },
+    { name = 'vehicles.delete',        desc = 'Delete your wagon' },
+    { name = 'vehicles.repair',        desc = 'Repair your wagon' },
+
+    { name = 'appearance.model',       desc = 'Change player model & outfit presets (incl. add-on peds)' },
+    { name = 'appearance.clothing',    desc = 'Clothing & character wardrobe (RDO-style), saved outfits' },
+    { name = 'appearance.scale',       desc = 'Change ped scale' },
+
+    { name = 'world.time',             desc = 'Change server time' },
+    { name = 'world.freezetime',       desc = 'Freeze server time' },
+    { name = 'world.weather',          desc = 'Change server weather' },
+
+    { name = 'players.view',           desc = 'See the online player list' },
+    { name = 'players.goto',           desc = 'Teleport to a player' },
+    { name = 'players.bring',          desc = 'Bring a player to you' },
+    { name = 'players.spectate',       desc = 'Spectate a player' },
+    { name = 'players.freeze',         desc = 'Freeze a player' },
+    { name = 'players.heal',           desc = 'Heal a player' },
+    { name = 'players.revive',         desc = 'Revive a player' },
+    { name = 'players.kill',           desc = 'Kill a player' },
+    { name = 'players.message',        desc = 'Send a private message' },
+    { name = 'players.kick',           desc = 'Kick a player' },
+    { name = 'players.ban',            desc = 'Ban a player' },
+    { name = 'players.unban',          desc = 'View ban list & unban' },
+    { name = 'players.announce',       desc = 'Send a server-wide announcement' },
+    { name = 'players.immune',         desc = 'Cannot be targeted by staff who lack this permission' },
+
+    { name = 'misc.coords',            desc = 'Show & copy coordinates' },
+    { name = 'misc.nametags',          desc = 'Overhead player names' },
+    { name = 'misc.blips',             desc = 'Player blips on the map' },
+    { name = 'misc.deletegun',         desc = 'Delete gun (shoot entities to delete them)' },
+}
