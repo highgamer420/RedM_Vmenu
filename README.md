@@ -181,4 +181,4 @@ local text = exports.ces_menu:Prompt('Title', 'default', 'placeholder')
 - Town coordinates are approximate centres. The teleport finds the ground height, so only x/y matter.
 - Switching to Online Male / Female gives the ped a full base body and a random outfit, which you can then restyle in the wardrobe. Frameworks with their own character creator (VORP/RSG) will usually overwrite wardrobe changes on relog. That's expected.
 - "Put back what you had" relies on a native that detects the worn item. If it isn't available on your build, leaving a category after previewing clears that slot instead.
-Support Discord https://discord.gg/rCBt6hwcWP
+Support Discord https://discord.gg/rCBt6hwcWP Doc Help: https://docs.crazyeyesstudio.com/redm/ces-menu
