@@ -1,8 +1,8 @@
-# Support Discord https://discord.gg/rCBt6hwcWP 
+# [Support Discord](https://discord.gg/rCBt6hwcWP)
 
-# SHOP other RedM scripts https://crazy-eyes-studio-redm.tebex.store
+# [SHOP other RedM scripts](https://crazy-eyes-studio-redm.tebex.store)
 
-# 📚 Documentation https://docs.crazyeyesstudio.com/redm/ces-menu
+# [Documentation](https://docs.crazyeyesstudio.com/redm/ces-menu)
 
 # CES Menu (RedM)
 
