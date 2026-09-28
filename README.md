@@ -1,3 +1,9 @@
+# Support Discord https://discord.gg/rCBt6hwcWP 
+
+# SHOP other RedM scripts https://crazy-eyes-studio-redm.tebex.store
+
+# 📚 Documentation https://docs.crazyeyesstudio.com/redm/ces-menu
+
 # CES Menu (RedM)
 
 A standalone admin and trainer menu for **RedM**, by Crazy Eyes Studio. It covers the same ground as vMenu for FiveM, but it's written for RDR2, and every option has its own ACE permission.
@@ -57,8 +63,3 @@ Each option below has its own ACE. ACE is hierarchical: `ces_menu` grants everyt
 `Config.PublicPermissions` gives options to everyone. `Config.DisabledPermissions` turns options off for everyone, admins included.
 After editing ACEs on a live server, run `cesmenu_refreshperms`. Players also get fresh permissions each time they open the menu.
 
-Support Discord https://discord.gg/rCBt6hwcWP Doc Help: https://docs.crazyeyesstudio.com/redm/ces-menu
-
-SHOP other redM scripts https://crazy-eyes-studio-redm.tebex.store
-
-📚 Documentation https://docs.crazyeyesstudio.com/redm/ces-menu
